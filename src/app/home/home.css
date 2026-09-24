@@ -1,0 +1,120 @@
+.backgroung-pic{
+ background-image: url('/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 10%  10% ; 
+  height: 100vh;
+}
+.background-filter{
+    height: 100vh;
+    width: 100vw;
+    background-color: #02516080;
+    color: white;
+
+    position: fixed;
+    
+
+}
+.text-field {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    
+}
+
+h2{
+    font-size: 5vh;
+}
+h3{
+    font-size: 3vh;
+}
+
+.menu{
+    position: relative;
+    top: 20vh;
+}
+
+.menu button{
+    color: white;
+    padding: 8px 25px;
+    margin: 0 30px;
+    background: transparent;
+    border: solid 2px white;
+    border-radius: 4px;
+    font-size: 2vh;
+}
+
+.about-me{
+    height: 60vh;
+    width: 45vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20vh 5vw;
+    font-size: 3vh;
+    color: #315556;
+
+    display: none;
+    z-index: 1;
+}
+
+.about-me a{
+    color: #315556;
+}
+
+
+.projects{
+    height: auto;
+    width: 70vw;
+    background-color: #025160;
+    color: white;
+    padding: 15vh 15vw;
+    display: none;
+
+}
+
+.projects-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+
+
+.element{
+    height: 400px;
+    width: 200px;
+    background-color: bisque;
+    margin: 10px 30px;
+}
+
+.swiper-slide img{
+    width: 10vw;
+    height: auto;
+}
+
+.swiper-slide{
+    width: fit-content;
+}
+
+.swiper-wrapper {
+        transition-timing-function: linear;
+        margin-bottom: 5vh;
+        pointer-events: none;
+}
+
+.swiper-slide a{
+    pointer-events: auto;
+}
+
+.swiper{
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);;
+}
