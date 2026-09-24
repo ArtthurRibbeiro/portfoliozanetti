@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { $ } from 'jquery';
 import Swiper from 'swiper';
-import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/effect-coverflow';
 import { Autoplay, EffectCoverflow } from 'swiper/modules';
