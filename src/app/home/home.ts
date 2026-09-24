@@ -65,9 +65,12 @@ export class Home {
    
    });
 
+   console.log('Swiper criado:', seletor, swiper);
+
   }
   
   ngAfterViewInit(){
+    
    }
 
   
